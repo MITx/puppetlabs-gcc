@@ -12,7 +12,7 @@
 #
 class gcc::params{
   
-  case $operatingsystem {
+  case $::operatingsystem {
     'fedora', 'centos', 'redhat': {
        $gcc_package = 'gcc'
     }
